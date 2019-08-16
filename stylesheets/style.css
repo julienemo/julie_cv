@@ -1,0 +1,69 @@
+:root {
+  --main-bg-color: #eeffff;
+  --primary: #009999;
+  --text: #003333;
+}
+
+body{
+  margin: 0;
+  background-color: var(--main-bg-color);
+  color: var(--text);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  justify-content: center;
+}
+
+
+.heavy_bg{
+  background-color: var(--primary);
+  color: var(--main-bg-color);
+}
+
+
+a{
+  color:inherit;
+}
+
+a :hover{
+  opacity: 0.8;
+}
+
+h4, h5, h6{
+  padding: 0;
+  margin:0;
+  font-family: Oswald;
+}
+
+h4{
+  font-size: 35px;
+}
+
+h5{
+  font-size: 30px;
+}
+
+h6{
+  font-size: 25px;
+}
+
+
+p{
+  font-family: "Source Code Pro";
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+span{
+  font-weight: bold;
+}
+.notes{
+  margin-left: 4em;
+  margin-right: 4em;
+
+}
