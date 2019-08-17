@@ -39,7 +39,7 @@ p{
   margin-right: 0 !important;
   margin-top: 0 !important;
   padding: 0 !important;
-  margin-bottom: 0.2em;
+  margin-bottom: 1.2em;
   line-height: 1.5em;
 }
 
@@ -95,11 +95,9 @@ a:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 0.5em;
 }
 
 .notes{
-  padding-top: 0.5em;
   margin-left: 1em;
   margin-right: 1em;
 }
