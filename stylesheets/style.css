@@ -2,6 +2,7 @@
   --main-bg-color: #eeffff;
   --primary: #009999;
   --text: #003333;
+  --secondary: #00cccc;
 }
 
 body{
@@ -9,23 +10,6 @@ body{
   padding: 0 !important;
   background-color: var(--main-bg-color);
   color: var(--text);
-}
-
-a{
-  color:inherit;
-}
-
-a:hover{
-  opacity: 0.8;
-  text-decoration: none;
-  font-size: 14px;
-  background-color: var(--primary);
-}
-
-.contact_element a:hover{
-  background-color: var(--main-bg-color);
-  color: var(--primary);
-
 }
 
 h4, h5, h6{
@@ -70,6 +54,22 @@ i{
 div{
 }
 
+a{
+  color:inherit;
+}
+
+a:hover{
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: var(--primary);
+}
+
+.contact_element a:hover{
+  background-color: var(--main-bg-color);
+  color: var(--primary);
+}
+
 .container{
   display: flex;
   flex-direction: column;
@@ -85,7 +85,6 @@ div{
 .heavy_bg{
   background-color: var(--primary);
   color: var(--main-bg-color);
-  padding-bottom: 0.5em;
 }
 
 .content{
@@ -123,4 +122,12 @@ div{
 {
   padding-left: 0.3em;
   padding-right: 0.3em;
+}
+
+.secondary{
+  font-size: 10px;
+  align-self: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: var(--secondary);
 }
