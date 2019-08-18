@@ -32,7 +32,7 @@ h6{
 
 
 p{
-  font-size: 12px;
+  font-size: 17px;
   font-family: "Source Code Pro";
   text-align: justify;
   margin-left: 0 !important;
@@ -73,9 +73,9 @@ a:hover{
 .container{
   display: flex;
   flex-direction: column;
-  padding-top: 1em;
-  padding-left: 6em;
-  padding-right: 6em;
+  padding-top: 1.2em;
+  padding-left: 5em;
+  padding-right: 5em;
   justify-content: center;
 }
 
@@ -88,7 +88,7 @@ a:hover{
 }
 
 .content{
-  margin-bottom: 1.2em;
+  margin-bottom: 0.3em;
 }
 
 .section{
@@ -99,7 +99,7 @@ a:hover{
 
 .notes{
   margin-left: 1em;
-  margin-right: 1em;
+  margin-right: 2em;
 }
 
 .image{
@@ -128,4 +128,28 @@ a:hover{
   margin-top: 1em;
   margin-bottom: 1em;
   color: var(--secondary);
+}
+
+.frame_block{
+  display:flex;
+  flex-direction: column;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.row_block{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col_block{
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 45%
+}
+
+.close_to_buttom{
+  margin-block-end: 0.2em !important;
+  margin-close_to_buttom: 0.2em !important;
 }
