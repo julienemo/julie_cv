@@ -3,6 +3,8 @@
   --primary: #009999;
   --text: #003333;
   --secondary: #00cccc;
+  --normal_words: 17px;
+  --secondary_words: 15px;
 }
 
 body{
@@ -32,14 +34,11 @@ h6{
 
 
 p{
-  font-size: 17px;
+  font-size: var(--normal_words);
   font-family: "Source Code Pro";
   text-align: justify;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  margin-top: 0 !important;
+  margin: 0 !important;
   padding: 0 !important;
-  margin-bottom: 1.2em;
   line-height: 1.5em;
 }
 
@@ -61,7 +60,7 @@ a{
 a:hover{
   opacity: 0.8;
   text-decoration: none;
-  font-size: 17px;
+  font-size: var(--normal_words);
   background-color: var(--primary);
 }
 
@@ -156,4 +155,13 @@ a:hover{
 
 .invisible{
   display: none;
+}
+
+#links p, .link span{
+  align-text: left;
+  font-size: var(--secondary_words);
+}
+
+#links a{
+  text-decoration: none;
 }
