@@ -34,24 +34,25 @@ h6{
 }
 
 
-p{
+p, li{
   font-size: var(--normal_words);
   font-family: "Source Code Pro";
   text-align: justify;
   margin: 0 !important;
   padding: 0 !important;
-  line-height: 1.5em;
+  line-height: 1.4em;
+}
+
+ul{
+  padding: 0 !important;
+}
+
+li{
+  list-style-type: none;
 }
 
 span{
   font-weight: bold;
-}
-
-i{
-  margin: 0.3em;
-}
-
-div{
 }
 
 a{
@@ -106,6 +107,7 @@ a:hover{
   margin-right: 1em;
   margin-left: 1em;
   vertical-align: middle;
+  width: 5em;
 }
 
 .wrap{
