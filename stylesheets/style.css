@@ -75,8 +75,8 @@ a:hover{
   display: flex;
   flex-direction: column;
   padding-top: 1.2em;
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 3em;
+  padding-right: 3em;
   justify-content: center;
 }
 
@@ -167,4 +167,11 @@ a:hover{
 
 #links a{
   text-decoration: none;
+}
+
+.pseudo_icon{
+  width: 20px;
+  margin-left: 10px;
+  margin-bottom: 3px;
+ vertical-align: bottom;
 }
